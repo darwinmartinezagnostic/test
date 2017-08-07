@@ -17,8 +17,8 @@ const app2 = require('hitbtc-api');
 
 //const HitBTC = app2()
 
-const key = '545b348a99d2cbaaa75e8b4725d928e1';
-const secret = '373e72e68ffdd95d0ecd42df1efd338a';
+const key = 'xxxxxx';
+const secret = 'xxxxxx';
 const restClient = new app2.default({ key,secret, isDemo: false });
 const websocketClient = new app2.default.WebsocketClient({ key, secret, isDemo: false });
 
