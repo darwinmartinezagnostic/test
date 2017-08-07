@@ -1,0 +1,19 @@
+{
+  "name": "trader",
+  "version": "1.0.0",
+  "description": "App para la gestion de monedas virtuales",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Darwin Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "hitbtc-api": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1"
+  }
+}
